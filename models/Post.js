@@ -34,4 +34,6 @@ class Post {
     likeToggle(){
         this._liked = !this._liked;
     }
-}
+};
+
+export default Post;
