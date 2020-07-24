@@ -11,6 +11,7 @@ export const postReducer = (state = [], action) => {
     switch(action.type){
         case CREATE_POST:
             const post = new Post(action.name,action.text,action.image);
+            // Reducerは純粋関数の為、引数の値を直接変更するようなことはしてはいけない→stateをスプレッド構文でコピーする
             return [
                 ...state,
                 post
