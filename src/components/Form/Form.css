@@ -1,0 +1,42 @@
+.whole_wrapper{
+    background-color: aqua;
+    text-align: center;
+}
+
+form{
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+h1{
+    margin: 0;
+}
+
+.form_name input,.form_text textarea,.form_image input{
+    width: 20%;
+    border-radius: 5px;
+}
+
+.form_name input{
+    height: 20px;
+}
+
+
+.form_text textarea{
+    height: 140px;
+}
+
+label{
+    display: block;
+}
+
+button{
+    margin-top: 10px;
+    width: 7%;
+    border-radius: 5px;
+}
+
+button:hover{
+    cursor: pointer;
+}
