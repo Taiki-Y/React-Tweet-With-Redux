@@ -20,7 +20,7 @@ export const deletePost = (id) => {
     }
 };
 
-export const like_post_toggole = (id) => {
+export const likePostToggle = (id) => {
     return {
         type: LIKE_POST_TOGGLE,
         id

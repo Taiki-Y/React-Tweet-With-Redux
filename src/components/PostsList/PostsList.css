@@ -1,0 +1,43 @@
+.post{
+    text-align: center;
+        padding: 30px;
+        border-radius: 10px;
+        background-color: #C0C0C0;
+        color: #fff;
+        width: 50%;
+        margin: 30px auto;
+        box-shadow: 3px 3px 5px #eee;
+    }
+    
+    p{
+        white-space: pre-wrap;
+    }
+    
+    .image img{
+        width: 440px;
+        height: 300px;
+    }
+
+    .like{
+        font-size: 30px;
+    }
+
+    .like:hover{
+        cursor: pointer;
+        color: #FF6699;
+    }
+
+    .liked{
+        color: #FF6699;
+    }
+
+    .delete_button{
+        padding: 5px 10px;
+        background: red;
+        border-radius: 5px;
+        margin-left: 10px;
+    }
+
+    .delete_button:hover{
+        cursor: pointer;
+    }
