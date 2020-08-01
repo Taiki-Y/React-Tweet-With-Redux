@@ -24,11 +24,14 @@ const Form = (props) => {
     };
 
     const onClickButton = () => {
-        if( name && text && image)
+        if( name && text && image){
         props.createPost(name,text,image);
         setName('');
         setText('');
         setImage('');
+        }else{
+            alert('投稿者名、テキスト、画像URLの入力は必須です。');
+        }
     }
 
     
@@ -65,6 +68,7 @@ const mapDispatchToProps = (dispatch) => {
     return {
         createPost: (name,text,image) => {
             const action = createPost(name,text,image);
+            //dispatchメソッドはactionを引数に受け取り、actionをstoreに渡すメソッド。こうすることにより、storeのstateを更新することができる。
             dispatch(action);
         }
     }
