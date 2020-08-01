@@ -28,7 +28,7 @@ export const postReducer = (state = [], action) => {
                     return post;
                 }
                 const targetPost = new Post(post.name,post.text,post.image);
-                if(!post.hasLikes()){
+                if(!post.hasLiked()){
                     targetPost.likeToggle();
                 }
                 return targetPost;
