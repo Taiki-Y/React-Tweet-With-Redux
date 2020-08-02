@@ -19,7 +19,7 @@ const PostsList = (props) => {
         return(
             <div key={index} className="post">
                 <div className="image">
-                    <img src={post.image}/>
+                    <img src={post.image} alt="image"/>
                 </div>
                 <h3>{post.name}</h3>
                 <p>{post.text}</p>
@@ -36,7 +36,7 @@ const PostsList = (props) => {
     });
 
     return(
-        <div class="posts_list">{ PostItems }</div>
+        <div className="posts_list">{ PostItems }</div>
     );
 };
 
