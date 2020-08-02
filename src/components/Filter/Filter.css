@@ -1,0 +1,19 @@
+.post_filter{
+    text-align: center;
+    margin-top: 30px;
+}
+
+.filter_button{
+    padding: 5px 10px;
+    background-color: #3399FF;
+    border-radius: 5px;
+    color: #fff;
+}
+
+.filter_all{
+    margin-right: 5px;
+}
+
+.filter_liked{
+    margin-left: 5px;
+}
