@@ -10,6 +10,10 @@
     color: #fff;
 }
 
+.filter_button:hover{
+    cursor: pointer;
+}
+
 .filter_all{
     margin-right: 5px;
 }
