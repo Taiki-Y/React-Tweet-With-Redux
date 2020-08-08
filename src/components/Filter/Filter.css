@@ -12,6 +12,11 @@
 
 .filter_button:hover{
     cursor: pointer;
+    background-color: #3399FF;
+}
+
+.filter_button:active{
+    background-color: #3399CC;
 }
 
 .filter_all{
