@@ -59,7 +59,7 @@ const Form = (props) => {
     
 }
 
-//mapDispatchTopropsは関数、もしくはオブジェクトをセットする。
+//mapDispatchToPropsは関数、もしくはオブジェクトをセットする。
 //関数をセットする場合は第一引数にdispatchを受け取る
 //返り値はオブジェクト→今回はオブジェクトの中に関数を定義している
 //このmapDispatchTopropsをconnectの第二引数に渡すことで、props.createPostでpropsからcreatePostを実行できるようになる
@@ -73,7 +73,7 @@ const mapDispatchToProps = (dispatch) => {
         }
     }
 };
-// 短縮形
+// 短縮形(mapDispatchToPropsにオブジェクトをセットした場合)
 // const mapDispatchToProps =　{ createPost };
 
 // コンテナーを作成するためには、connectメソッドを使う

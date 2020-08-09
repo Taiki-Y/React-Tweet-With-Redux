@@ -66,7 +66,7 @@ const confirmDelete = (props, post) => {
 
 //mapStatetoProps = 返り値にオブジェクトを返す関数（Storeのstateをprops経由でコンポーネントに渡す際にどのような形でコンポーネントに渡すか定義する関数）
 //第一引数にstoreのstateを受け取る
-//このmapStateTopropsをconnectの第一引数に渡すことで、props.postsでpropsを経由してsotreのstateで管理している値（今回の場合はprops）を使うことができる
+//このmapStateTopropsをconnectの第一引数に渡すことで、props.postsでpropsを経由してsotreのstateで管理している値（今回の場合はprops）にアクセスすることができる
 
 const mapStatetoProps = (state) => {
     let posts;
